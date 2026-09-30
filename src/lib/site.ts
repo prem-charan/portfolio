@@ -20,7 +20,7 @@ export const site = {
   x: "https://x.com/premxcharan",
   xHandle: "premxcharan",
   resumeHref: "/PremCharan_resume.pdf",
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://premcharan.vercel.app",
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://premxcharan.vercel.app",
   keywords: [
     "Prem Charan",
     "Pampana Prem Charan",
