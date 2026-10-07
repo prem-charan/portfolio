@@ -7,6 +7,7 @@ import { SiteHeader } from "@/components/site-header";
 import { ThemeProvider } from "@/components/theme-provider";
 import { site } from "@/lib/site";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -88,7 +89,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           </div>
           <CommandPalette />
           <ClickSpark />
-        </ThemeProvider>
+              </ThemeProvider>
+              <Analytics/>
       </body>
     </html>
   );
