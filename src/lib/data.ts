@@ -51,18 +51,17 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    name: "Synchronous Chat Application",
+    name: "Beam — Real-Time Video Calling App",
     description:
-      "Real-time messaging app with direct and group channels, built on Socket.io.",
+      "A peer-to-peer video calling app with a multi-participant WebRTC mesh and a custom signaling server.",
     points: [
-      "Bidirectional messaging with instant delivery and typing indicators, for both DMs and group channels.",
-      "JWT auth over HTTP-only cookies with 256-bit encryption for session security.",
-      "File sharing via Cloudinary — 10+ file types up to 25MB with real-time upload progress.",
-      "50+ reusable Tailwind components, responsive from desktop down to mobile.",
+      "Multi-participant WebRTC mesh architecture with a custom WebSocket signaling server for low-latency real-time audio/video across browsers.",
+      "STUN/TURN relay fallback for NAT traversal on restrictive networks, plus a reconnect protocol with session grace periods to survive dropped connections.",
+      "Host-approval join flow with shareable room links; signaling server deployed on a Google Cloud VM behind a Caddy reverse proxy with automated TLS.",
     ],
-    stack: ["React", "Node.js", "Express", "Socket.io", "MongoDB", "Tailwind CSS"],
-    github: "https://github.com/prem-charan/synchronous-chat-app",
-    live: "https://synchronous-chat-app-three.vercel.app",
+    stack: ["React", "TypeScript", "Node.js", "WebRTC", "WebSocket", "GCP"],
+    github: "https://github.com/prem-charan/beam",
+    live: "https://beamwebrtc.vercel.app",
   },
   {
     name: "Brainly — Your Second Brain",
@@ -89,6 +88,20 @@ export const projects: Project[] = [
     ],
     stack: ["C++", "pthreads", "Multithreading"],
     github: "https://github.com/prem-charan/parallel-mergeSort",
+  },
+  {
+    name: "Synchronous Chat Application",
+    description:
+      "Real-time messaging app with direct and group channels, built on Socket.io.",
+    points: [
+      "Bidirectional messaging with instant delivery and typing indicators, for both DMs and group channels.",
+      "JWT auth over HTTP-only cookies with 256-bit encryption for session security.",
+      "File sharing via Cloudinary — 10+ file types up to 25MB with real-time upload progress.",
+      "50+ reusable Tailwind components, responsive from desktop down to mobile.",
+    ],
+    stack: ["React", "Node.js", "Express", "Socket.io", "MongoDB", "Tailwind CSS"],
+    github: "https://github.com/prem-charan/synchronous-chat-app",
+    live: "https://synchronous-chat-app-three.vercel.app",
   },
 ];
 
