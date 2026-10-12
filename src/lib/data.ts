@@ -22,7 +22,7 @@ export const experience = [
     start: "2025",
     end: "Present",
     points: [
-      "Built a GenAI report generation pipeline that automatically produces site section reports, using Spring Boot, Angular, and Azure OpenAI REST APIs.",
+      "Built a GenAI report generation pipeline that automatically produces site section reports, using Spring Boot, React and Azure OpenAI REST APIs.",
     ],
   },
   {

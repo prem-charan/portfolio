@@ -7,7 +7,7 @@ export const site = {
   name: "Prem Charan",
   role: "Software Engineer",
   tagline: "Currently diving deeper into backend and distributed systems.",
-  location: "Chennai, Tamil Nadu, India",
+  location: "Bengaluru, Karnataka, India",
   email,
   // mailto: links depend on the visitor having a desktop mail client
   // registered with their OS/browser — most people don't, so clicking one
